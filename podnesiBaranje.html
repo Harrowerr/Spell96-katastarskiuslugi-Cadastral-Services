@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PodnesiBaranje</title>
+<link rel="stylesheet" href="profkorisnici.css">
+<style>
+
+ body {
+     background-color: #05c46b;
+     font-family: Verdana;
+     text-align: center;
+ }
+
+ form {
+     background-color: #fff;
+     max-width: 500px;
+     margin: 50px auto;
+     padding: 30px 20px;
+     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+     opacity:0.8;
+     filter:alpha(opacity=60);
+ }
+
+ .form-control {
+     text-align: left;
+     margin-bottom: 25px;
+ }
+
+ .form-control label {
+     display: block;
+     margin-bottom: 10px;
+ }
+
+ .form-control input,
+ .form-control select,
+ .form-control textarea {
+     border: 1px solid #777;
+     border-radius: 2px;
+     font-family: inherit;
+     padding: 10px;
+     display: block;
+     width: 95%;
+ }
+
+ .form-control input[type="radio"],
+ .form-control input[type="checkbox"] {
+     display: inline-block;
+     width: auto;
+ }
+ .logo{
+   float: left;
+ }
+</style>
+</head>
+<body style="background: url('images/img_7.jpg'); background-size: 100%;" link="^000" alink="^017bf5" vlink="^000">
+<a href="http://localhost:8080/katastarskiuslugi/index.html"><img src="images/logo.png"  class="logo"></a>
+<form id="form"action="pod_baranje.php" method="post" name="myWebForm" action="mailto:youremail@email.com">
+<h1>Податоци за Поднесителот:</h1><br>
+<div class="form-control">
+        <label for="ime" id="label-ime">
+            Име:
+        </label>
+
+        <input type="text" name="ime" id="ime" placeholder="Внесете вашето име" />
+      </div>
+
+      <div class="form-control">
+        <label for="prezime" id="label-prezime">
+            Презиме:
+        </label>
+
+        <input type="text" name="prezime" id="prezime" placeholder="Внесете вашето презиме" />
+      </div>
+
+      <div class="form-control">
+          <label for="adresa" id="label-adresa">
+              Адреса:
+          </label>
+
+          <input type="text" name="adresa" id="adresa" placeholder="Внесете вашата адреса" />
+      </div>
+
+    <div class="form-control">
+        <label for="mail" id="label-mail">
+            Е-маил:
+        </label>
+
+        <input type="text" name="mail" id="mail" placeholder="Внесете вашата е-пошта" />
+    </div>
+    <div class="form-control">
+        <label for="telefon" id="label-telefon">
+            Телефон:
+        </label>
+
+        <input type="text" name="telefon" id="telefon" placeholder="Внесете вашиот телефон број" />
+    </div>
+<br />
+<hr><br>
+
+<h1>Податоци за Недвижноста:</h1><br>
+
+      <div class="form-control">
+        <label for="katastarsko_oddelenie" id="katastarsko_oddelenie">
+            Катастарско Одделение:
+        </label>
+
+        <input type="text" name="kat_oddel" id="kat_oddel" placeholder="Внесете Катастарско Одделение" />
+      </div>
+
+      <div class="form-control">
+          <label for="kat_opstt" id="label-kat_opstt">
+            Катастарска Општина:
+          </label>
+
+          <input type="text" name="kat_opst" id="kat_opstt" placeholder="Внесете Катастарска Општина" />
+      </div>
+
+    <div class="form-control">
+        <label for="kat_parcela" id="label-kat_parcela">
+            Катастарска Парцела:
+        </label>
+
+        <input type="text" name="kat_parcela" id="kat_parcela" placeholder="Внесете Катастарска Парцела" />
+    </div>
+
+          <div class="form-control">
+              <select name="role" id="role">
+                  <option value="imoten_list">Имотен Лист</option>
+                  <option value="spisok_na_indikacii">Список на Индикации</option>
+                  <option value="iskolcuvanje_na_megi">Исколчување на Меѓи</option>
+                  <option value="sudski_vestacenja">Судски Вештачења</option>
+                  <option value="dopolnitelen_primerok">Дополнителен Примерок</option>
+                  <option value="izdavanje_na_elaboratCD">Издавање на Елаборат на CD</option>
+              </select>
+          </div>
+          <div class="content">
+              <button class="cn" type="submit" name="submit" value="submit">Поднеси</button>
+          </div>
+</form>
+</body>
+</html>

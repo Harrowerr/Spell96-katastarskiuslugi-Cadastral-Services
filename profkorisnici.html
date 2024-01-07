@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ProfesionalniKorisnici</title>
+<link rel="stylesheet" href="profkorisnici.css">
+<style>
+
+ body {
+     background-color: #05c46b;
+     font-family: Verdana;
+     text-align: center;
+ }
+
+ form {
+     background-color: #fff;
+     max-width: 500px;
+     margin: 50px auto;
+     padding: 30px 20px;
+     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+     opacity:0.9;
+    filter:alpha(opacity=60);
+ }
+
+ .form-control {
+     text-align: left;
+     margin-bottom: 25px;
+ }
+
+ .form-control label {
+     display: block;
+     margin-bottom: 10px;
+ }
+
+ .form-control input,
+ .form-control select,
+ .form-control textarea {
+     border: 1px solid #777;
+     border-radius: 2px;
+     font-family: inherit;
+     padding: 10px;
+     display: block;
+     width: 95%;
+ }
+
+ .form-control input[type="radio"],
+ .form-control input[type="checkbox"] {
+     display: inline-block;
+     width: auto;
+ }
+
+
+</style>
+</head>
+<body style="background: url('images/img_6.jpg'); background-size: 100%;" link="^000" alink="^017bf5" vlink="^000">
+<a href="http://localhost:8080/katastarskiuslugi/index.html"><img src="images/logo.png"  class="logo"></a>
+<form id="form"action="Index.php" method="post" name="myWebForm" action="mailto:youremail@email.com">
+<h1>Податоци за Странката:</h1><br>
+<div class="form-control">
+        <label for="ime" id="label-ime">
+            Име:
+        </label>
+
+        <input type="text" name="ime" id="ime" placeholder="Внесете вашето име" />
+      </div>
+
+      <div class="form-control">
+        <label for="prezime" id="label-prezime">
+            Презиме:
+        </label>
+
+        <input type="text" name="prezime" id="prezime" placeholder="Внесете вашето презиме" />
+      </div>
+
+      <div class="form-control">
+          <label for="adresa" id="label-adresa">
+              Адреса:
+          </label>
+
+          <input type="text" name="adresa" id="adresa" placeholder="Внесете вашата адреса" />
+      </div>
+
+    <div class="form-control">
+        <label for="mail" id="label-mail">
+            Е-маил:
+        </label>
+
+        <input type="text" name="mail" id="mail" placeholder="Внесете вашата е-пошта" />
+    </div>
+    <div class="form-control">
+        <label for="telefon" id="label-telefon">
+            Телефон:
+        </label>
+
+        <input type="text" name="telefon" id="telefon" placeholder="Внесете вашиот телефон број" />
+    </div>
+<br />
+<hr><br>
+
+<h1>Податоци за Геодескиот Елаборат:</h1><br>
+<p>Прикачи геодетски елаборат <input type="file" name="uploadField" /></p><br>
+
+<div class="form-control">
+        <label for="elaborat" id="label-elaborat">
+            Тип на елаборат:
+        </label>
+
+        <input type="text" name="tip_elaborat" id="tipElaborat" placeholder="Внесете Тип на елаборат" />
+      </div>
+
+      <div class="form-control">
+        <label for="katastarsko_oddelenie" id="katastarsko_oddelenie">
+            Катастарско Одделение:
+        </label>
+
+        <input type="text" name="kat_oddel" id="kat_oddel" placeholder="Внесете Катастарско Одделение" />
+      </div>
+
+      <div class="form-control">
+          <label for="kat_opstt" id="label-kat_opstt">
+            Катастарска Општина:
+          </label>
+
+          <input type="text" name="ukat_opst" id="kat_opstt" placeholder="Внесете Катастарска Општина" />
+      </div>
+
+    <div class="form-control">
+        <label for="kat_parcela" id="label-kat_parcela">
+            Катастарска Парцела:
+        </label>
+
+        <input type="text" name="kat_parcela" id="kat_parcela" placeholder="Внесете Катастарска Парцела" />
+    </div>
+    <div class="form-control">
+        <label for="br_zagrada" id="label-br_zagrada">
+            Број на Заграда:
+        </label>
+
+        <input type="text" name="br_zagrada" id="br_zagrada" placeholder="Внесете Број на Заграда" />
+    </div>
+
+    <div class="form-control">
+      <label for="povrsina_kat_par" id="povrsina_kat_par">
+          Површина на Катастарската Парцела:
+      </label>
+
+      <input type="text" name="povrsina_kat_par" id="povrsina_kat_par" placeholder="Внесете површина на Катастарската Парцела" />
+    </div>
+
+    <div class="form-control">
+        <label for="povrsina_objekt" id="label-povrsina_objekt">
+            Површина на Објектот:
+        </label>
+
+        <input type="text" name="povrsina_objekt"  id="povrsina_objekt" placeholder="Внесете Површина на Објектот" />
+    </div>
+
+  <div class="form-control">
+      <label for="arhiv_br" id="label-arhiv_br">
+          Архивски Број:
+      </label>
+
+      <input type="text" name="arhiv_br" id="arhiv_br" placeholder="Внесете Архивски Број" />
+  </div>
+  <div class="form-control">
+      <label for="dat_zavrsuvanje" id="label-dat_zavrsuvanje">
+          Датум на Завршување:
+      </label>
+
+      <input type="text" name="dat_zavrsuvanje" id="dat_zavrsuvanje" placeholder="Внесете Датум на Завршување" />
+  </div>
+
+  <div class="form-control">
+              <label>
+                  Постапка:
+              </label>
+
+              <label for="itna_postapka">
+                  <input type="radio"
+                         id="itna_postapka"
+                         name="recommed">Итна Постапка</input>
+              </label>
+              <label for="redovna_postapka">
+                  <input type="radio"
+                         id="redovna_postapka"
+                         name="recommed">Редовна Постапка</input>
+              </label>
+          </div>
+
+          <div class="form-control">
+              <select name="role" id="role">
+                  <option value="student">Внеси Елаборат</option>
+                  <option value="intern">Легализација</option>
+                  <option value="professional">Концесија</option>
+                  <option value="other">Други</option>
+              </select>
+          </div>
+          <div class="content">
+              <button class="cn" type="submit" name="submit" value="submit">Внеси</button>
+          </div>
+</form>
+</body>
+</html>
