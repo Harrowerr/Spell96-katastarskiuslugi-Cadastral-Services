@@ -20,6 +20,39 @@
     </li>
 </ul>
 
+## Screenshots From the Website
+Registration page
+
+![registration_page](https://github.com/Harrowerr/Spell96-katastarskiuslugi-Cadastral-Services/assets/106821964/33bf5812-9252-4392-8240-1219af48cf04)
+
+Login page
+
+![login](https://github.com/Harrowerr/Spell96-katastarskiuslugi-Cadastral-Services/assets/106821964/e2664d3e-85ca-4738-a57c-85e794466d41)
+
+Welcome page
+
+![Welcome_page](https://github.com/Harrowerr/Spell96-katastarskiuslugi-Cadastral-Services/assets/106821964/fb3808b1-0a2a-460f-a70e-86380824428d)
+
+Main page
+
+![main-page](https://github.com/Harrowerr/Spell96-katastarskiuslugi-Cadastral-Services/assets/106821964/7d2018c4-ff43-4248-bec3-de69a20567d1)
+
+Questionnaire for services that the company provides to the owners of the properties
+
+![questionnaire_service](https://github.com/Harrowerr/Spell96-katastarskiuslugi-Cadastral-Services/assets/106821964/30cb7835-224e-48da-800d-f0b3df6d7f37)
+
+Questionnaire for elaborating reports
+
+![questionnaire for elaborating reports](https://github.com/Harrowerr/Spell96-katastarskiuslugi-Cadastral-Services/assets/106821964/53e798d7-70cf-4e4f-86c6-1265032c5c32)
+
+Insight into prepared reports
+
+![insight into prepared reports](https://github.com/Harrowerr/Spell96-katastarskiuslugi-Cadastral-Services/assets/106821964/84838b91-732a-4615-ae67-c8802e3243eb)
+
+
+## Notes
+This project was a seminar project that i've completed in the university.
+
 ## Development
 - Language: **[PHP](https://github.com/dotnet/csharplang) 8.3**
 - IDE: **[VSCode](https://github.com/microsoft)**
